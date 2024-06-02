@@ -27,7 +27,7 @@ export const Technologies = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className="text-6xl text-slate-50 font-thin bg-gradient-to-r from-purple-200 via-slate-50 to-purple-400 bg-clip-text text-transparent"
+            className="text-3xl sm:text-6xl text-slate-50 font-thin bg-gradient-to-r from-purple-200 via-slate-50 to-purple-400 bg-clip-text text-transparent"
           >
             Technologies
           </motion.h1>

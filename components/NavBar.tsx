@@ -16,7 +16,7 @@ export const NavBar = () => {
       variants={containers(0.2)}
       initial="hidden"
       animate="visible"
-      className="border rounded-full w-full h-12 flex items-center"
+      className="border rounded-full w-full h-12 flex items-center invisible sm:visible"
     >
       <div className="text-slate-50 text-xl font-normal flex justify-evenly">
         <motion.div

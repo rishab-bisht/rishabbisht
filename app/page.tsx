@@ -63,7 +63,7 @@ export default function Home() {
               variants={containers(0.2)}
               initial="hidden"
               animate="visible"
-              className="text-5xl font-extralight text-slate-50 pb-4 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight"
+              className="text-3xl sm:text-5xl font-extralight text-slate-50 pb-4 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight"
             >
               Hey,I am Rishab
             </motion.h2>
@@ -71,7 +71,7 @@ export default function Home() {
               variants={containers(0.5)}
               initial="hidden"
               animate="visible"
-              className="text-4xl font-extralight text-slate-50 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight "
+              className="text-2xl sm:text-4xl font-extralight text-slate-50 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight "
             >
               I am a Full-Stack Developer
             </motion.h1>
@@ -98,7 +98,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5 }}
-                className="text-6xl text-slate-50 font-thin bg-gradient-to-r from-purple-200 via-slate-50 to-purple-400 bg-clip-text text-transparent"
+                className="text-3xl sm:text-6xl text-slate-50 font-thin bg-gradient-to-r from-purple-200 via-slate-50 to-purple-400 bg-clip-text text-transparent"
               >
                 About Me
               </motion.h1>
@@ -111,7 +111,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
-                className="text-xl font-thin text-slate-50 tracking-normal"
+                className="text-medium sm:text-xl font-thin text-slate-50 tracking-tight sm:tracking-normal"
               >
                 Hello! I am Rishab, an enthusiastic and passionate aspiring web
                 developer with a keen interest in becoming a proficient
