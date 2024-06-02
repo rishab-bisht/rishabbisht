@@ -10,10 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        parallax: 'url(./images/stars.png)',
-        parallax2: 'url(./images/mountains_front.png)',
-        parallax3: 'url(./images/mountains_behind.png)',
-        parallax4: 'url(./images/moon.png)',
+        parallax: 'url(/images/stars.png)',
+        parallax2: 'url(/images/mountains_front.png)',
+        parallax3: 'url(/images/mountains_behind.png)',
+        parallax4: 'url(/images/moon.png)',
       },
       colors: {
         custombg: '#1A1B41', // Custom background color
