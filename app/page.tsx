@@ -65,7 +65,7 @@ export default function Home() {
               animate="visible"
               className="text-5xl font-extralight text-slate-50 pb-4 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight"
             >
-              Hey,I'm Rishab
+              Hey,I am Rishab
             </motion.h2>
             <motion.h1
               variants={containers(0.5)}
@@ -73,7 +73,7 @@ export default function Home() {
               animate="visible"
               className="text-4xl font-extralight text-slate-50 bg-gradient-to-r from-slate-50 to-slate-400 bg-clip-text text-transparent tracking-tight "
             >
-              I'm a Full-Stack Developer
+              I am a Full-Stack Developer
             </motion.h1>
           </motion.div>
 
@@ -113,17 +113,17 @@ export default function Home() {
                 transition={{ duration: 1.5 }}
                 className="text-xl font-thin text-slate-50 tracking-normal"
               >
-                Hello! I'm Rishab, an enthusiastic and passionate aspiring web
+                Hello! I am Rishab, an enthusiastic and passionate aspiring web
                 developer with a keen interest in becoming a proficient
-                full-stack developer. Although I'm just starting my journey in
+                full-stack developer. Although I am just starting my journey in
                 web development, my eagerness to learn and grow in this dynamic
                 field drives me every day.<br></br> My fascination with
                 technology and web development began during my studies, where I
                 explored the basics of HTML, CSS, and JavaScript. This initial
                 exposure sparked a deep interest in creating interactive and
-                user-friendly web applications. I'm particularly excited about
+                user-friendly web applications. I am particularly excited about
                 the prospect of mastering both front-end and back-end
-                development, and I'm committed to developing my skills in
+                development, and I am committed to developing my skills in
                 languages and frameworks like React, Node.js, Next.js and more.
                 <br></br>
               </motion.p>
