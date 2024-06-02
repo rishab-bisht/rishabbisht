@@ -42,7 +42,7 @@ export const ContactMe = () => {
             </motion.button>
           </Link>
 
-          <Link href="https://www.google.com" target="_blank">
+          <Link href="mailto:rishab1493@gmail.com" target="_blank">
             <motion.button
               whileHover={{
                 scale: 1.1,
